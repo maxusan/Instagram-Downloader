@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.InstagramDownloader" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 </resources>
