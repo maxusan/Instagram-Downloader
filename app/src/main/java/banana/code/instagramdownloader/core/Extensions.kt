@@ -7,7 +7,7 @@ import androidx.navigation.fragment.findNavController
 fun Fragment.navigate(direction: NavDirections){
     kotlin.runCatching {
         findNavController().navigate(direction)
-    }
+    }.exceptionOrNull()?.printStackTrace()
 }
 
 fun Fragment.navigateUp(){
